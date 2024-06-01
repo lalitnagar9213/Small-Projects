@@ -1,0 +1,226 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-weight: 300;
+    line-height: 1.4;
+}
+
+.nav .btns a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.nav {
+    top: 0;
+    height: 2.5rem;
+    width: 100%;
+    /* position: sticky; */
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(48, 3, 138);
+    color: white;
+    font-size: 1.8rem;
+}
+
+/* .nav .btns button {
+    border: none;
+    background-color: rgb(48, 3, 138);
+    color: white;
+    font-size: 1rem;
+} */
+
+
+.nav span {
+    margin-left: 20px;
+    padding-left: 20px;
+}
+.nav .btns {
+    padding-right: 30px;
+}
+
+.box1 {
+    height: 1100px;
+    width: 100%;
+    background-image: url(hero_image.png);
+    background-size: cover;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-box {
+    margin-top: 400px;
+    height: 60%;
+    width: 60%;  
+}
+
+.text-box h1 {
+    font-size: 5rem;
+    padding: 20px;
+}
+.text-box h3 {
+    font-size: 2rem;
+    padding: 20px;
+}
+.text-box p {
+    font-size: 1.2rem;
+    padding: 20px;
+}
+
+.music {
+    width: 100%;
+    height: 900px;
+    background-color: rgb(41, 4, 114);
+    display: flex;
+    justify-content: center;
+}
+
+.box2 {
+    width: 60%;
+    height: 60%;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+}
+
+.box2 h2, h3, h4{
+    padding: 20px;
+}
+
+.box2 button {
+    font-size: 1.5rem;
+    padding: 10px;
+    background-color: rgb(219, 66, 10);
+    color: white;
+    border: none;
+}
+
+.box2 p {
+    padding: 50px;
+    font-weight: 100;
+    opacity: 0.7;
+}
+
+#divImg {
+    position: relative;
+    border: 1px solid black;
+}
+#divImg2 {
+    position: absolute;
+    left: 50%;
+}
+
+#divImg2 img {
+    margin-left: -50%;
+    margin-top: -40%;
+}
+
+.laptop {
+    padding-top: 370px;
+    width: 100%;
+    height: 1400px;
+    text-align: center;
+    background-color: white;
+    line-height: 1.5rem;
+}
+
+.text-lap {
+    margin: 0 20%;
+}
+
+.text-lap h3, p {
+    padding: 20px;
+}
+
+.text-lap button {
+    font-size: 1.5rem;
+    padding: 10px;
+    margin: 20px;
+    margin-bottom: 100px;
+    background-color: rgb(66, 20, 232);
+    color: white;
+    border: none;
+
+}
+.container {
+    width: 100%;
+    height: 700px;
+    position: relative;
+}
+
+.video-text {
+    margin-top: 250px;
+    margin-left: 250px;
+    text-align: center;
+    position: absolute;
+    z-index: 50;
+    font-size: 1.5rem;
+    width: 60%;
+    color: white;
+
+}
+video {
+    /* position: absolute; */
+    min-height: 100%;
+    min-width: 100%;
+    z-index: -50;
+    /* opacity: 0.9; */
+}
+
+.gift {
+    height: 450px;
+    width: 100%;
+}
+
+.gift-box {
+    padding: 0px 80px;
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gift-text {
+    
+    padding: 0px 40px;
+    font-weight: 700;
+}
+
+.gift-text button {
+    margin-left: 20px;
+    margin-top: 50px;
+    font-size: 1.5rem;
+    padding: 8px 8px;
+    background-color: rgb(6, 26, 95);
+    border: none;
+    color: white;
+}
+
+.outer-footer {
+    width: 100%;
+    height: 300px;
+    display: grid;
+}
+
+.f1 {
+    width: 100%;
+    height: 240px;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(5, 17, 102);
+    color: white;
+}
+
+.f2 {
+    width: 100%;
+    height: 60px;
+    background-color: rgb(33, 50, 178);
+    color: white;
+    text-align: center;
+    font-size: 1rem;
+}
