@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #75E6DA;
+}
+
+.main {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    height: 400px;
+    width: 550px;
+    background-color: #d1e9ec;
+    border: 2px solid white;
+    border-radius: 10%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+label {
+    font-size: 1.4rem;
+}
+
+#submitbtn {
+    width: 7rem;
+    height: 2rem;
+    border: 2px solid black;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(49, 47, 47);
+    font-size: 1.2rem;
+}
+
+#submitbtn:hover {
+    transform: scale(1.1);
+}
